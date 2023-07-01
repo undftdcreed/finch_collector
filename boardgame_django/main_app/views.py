@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views.generic.base import TemplateView# <- View class to handle requests
 from django.http import HttpResponse # <- a class to handle sending a type of response
-from .models import Artist
+from .models import Game
 
 # Create your views here.
 
@@ -39,12 +39,12 @@ artists = [
 ]
 
 
-class ArtistList(TemplateView):
-    template_name = "artist_list.html"
+class GameList(TemplateView):
+    template_name = "game_list.html"
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context["artists"] = Artist.objects.all()# this is where we add the key into our context object for the view to use
+        context["games"] = Game.objects.all()
         return context
     
 

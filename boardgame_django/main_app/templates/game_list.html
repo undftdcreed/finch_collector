@@ -7,16 +7,16 @@
 
 <h1 class="title pt-5">Trending Artists</h1>
 <div class="gallery">
-  {% for artist in artists %}
+  {% for game in games %}
   <a href="">
     <div class="card">
       <div class="card-image">
         <figure class="image is-square">
-          <img src="{{artist.img}}" alt="{{artist.name}}" />
+          <img src="{{game.img}}" alt="{{game.name}}" />
         </figure>
       </div>
       <div class="card-header">
-        <p class="card-header-title">{{artist.name}}</p>
+        <p class="card-header-title">{{game.name}}</p>
       </div>
     </div>
   </a>
