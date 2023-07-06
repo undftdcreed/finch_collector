@@ -80,6 +80,13 @@ WSGI_APPLICATION = 'boardgame_project.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'gamespot',
+    }
+}
+
+'''DATABASES = {
   'default': {
     'ENGINE': 'django.db.backends.postgresql',
     'NAME': 'neondb',
@@ -88,7 +95,7 @@ DATABASES = {
     'HOST': os.environ['DB_HOST'],
     'PORT': '5432',
   }
-}
+}'''
 
 
 # Password validation
