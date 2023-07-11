@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0840b6df14c0d2bfe2cc3986c2dd6df9ecb7ec85d6b86682ea6c0e6c69936844"
+            "sha256": "4fb791c1dd70f63e0c9e4f8b69331fb7ff62a9f40628b9ff2bcac2381e7e5ad8"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -245,7 +245,7 @@
                 "sha256:45a747e1c5b3d6df1b141b1481e193b033fd1fdbda3ff52677dc81afdaacbaed",
                 "sha256:f7c7852a5ac5a3da5a8d5b35cc6168f31b605971441798dac845f17ca8028039"
             ],
-            "markers": "python_version >= '3.8'",
+            "index": "pypi",
             "version": "==4.2.3"
         },
         "dulwich": {

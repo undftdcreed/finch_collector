@@ -7,6 +7,7 @@ name = "pypi"
 poetry = "*"
 dj-database-url = "*"
 postgres = "*"
+django = "*"
 
 [dev-packages]
 
