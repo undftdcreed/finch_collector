@@ -98,11 +98,12 @@ WSGI_APPLICATION = 'boardgame_project.wsgi.application'
 }'''
 
 DATABASES = {
-    'default':  dj_database_url.config(
+    'default': dj_database_url.config(
         default='postgresql://brandon:postgres@localhost:5432/boardgame_django',
-        conn_max_age=600
+        conn_max_age=600,
+        options={'sslmode': 'require'}
     )
-    }
+}
 
 
 # Password validation
