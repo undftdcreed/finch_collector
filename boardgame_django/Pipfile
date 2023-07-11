@@ -4,9 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
-whitenoise = "*"
-gunicorn = "*"
+poetry = "*"
 
 [dev-packages]
 
