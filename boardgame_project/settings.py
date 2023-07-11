@@ -102,8 +102,7 @@ DATABASES = {
         default='postgresql://brandon:postgres@localhost:5432/boardgame_django',
         conn_max_age=600
     )
-    
-}
+    }
 
 
 # Password validation
