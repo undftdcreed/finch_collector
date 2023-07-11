@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 poetry = "*"
+dj-database-url = "*"
+postgres = "*"
 
 [dev-packages]
 
