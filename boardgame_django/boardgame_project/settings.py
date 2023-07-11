@@ -78,7 +78,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'boardgame_project.application'
+WSGI_APPLICATION = 'boardgame_project.wsgi.application'
 
 
 
@@ -99,7 +99,7 @@ WSGI_APPLICATION = 'boardgame_project.application'
 
 DATABASES = {
     'default':  dj_database_url.config(
-        default='postgresql://postgres:postgres@localhost:5432/boardgame_django',
+        default='postgresql://brandon:postgres@localhost:5432/boardgame_django',
         conn_max_age=600
     )
     
